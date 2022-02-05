@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>BookAppList</title>
+     <style>
+          @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+          </style>
+     <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+     <div class="container" >
+          <div class="conten-1">
+               <h2>Gramedia Store</h2>
+               <div class="alert">
+                    <span></span>
+               </div>
+               <form id="book-form">
+                    <div class="field title">
+                         <label for="title">Title</label>
+                         <input type ="text" name="title" id="title" placeholder="TITLE" autofocus>
+                    </div>
+                    <div class="field author" >
+                         <label for="author">Author</label>
+                         <input type="text" name="author" id="author" placeholder="AUTHOR">
+                    </div>
+                    <div class="field isbn">
+                         <label for="isbn">ISBN</label>
+                         <input type="text" name="isbn" id="isbn" placeholder="ISBN">
+                    </div>
+                    <div class="field price">
+                         <label for="price">Price</label>
+                         <input type="number" name="price" id="price" placeholder="PRICE">     
+                    </div>
+                    <div class="field quantity">
+                         <label for="number">Quantity</label>
+                         <input type="number" name="quantity" id="quantity" placeholder="QUANTITY">
+                    </div>
+                    <div class="button">
+                         <button type="submit" class="submit">Submit</button>
+                         <button type="reset" class="reset">Reset</button>
+                         <button><a href="index2.html" style="text-decoration: none; color: black; ">Penjualan</a></button>
+                    </div>
+               </form>
+          </div>
+          <div class="content-2">
+               <table >
+                    <thead>
+                         <td>Title</td>
+                         <td>Author</td>
+                         <td>ISBN</td>
+                         <td>Price</td>
+                         <td>Quantity</td>
+                         <td>Total</td>
+                         <td style="width: 20px;"></td>
+                    </thead>
+                    <tbody id="book-list">
+                    </tbody>
+          </div>
+     </div>
+     
+     <script src="js/index.js"></script>
+</body>
+</html>
