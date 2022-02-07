@@ -1,3 +1,6 @@
+window.alert("Aplikasi ini untuk menyimpan data buku yang dibeli lalu data tersebut akan ditampilkan pada halaman selanjutnya ,data akan terhapus secara otomatis setalah 24 jam sejak pertama melakukan menginput data buku yang dibeli.");
+
+
 let obj = [];
 let iObj = {};
 
